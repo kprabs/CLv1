@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>true</IsPackable>
+    <PackageVersion>3.0.1</PackageVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageOutputPath>C:\Local Nuget Packages</PackageOutputPath>
+    <Optimize>True</Optimize>
+    <Optimize>True</Optimize>
+    <Version>3.0.3</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="AuthorizationNewCore.Nuget" Version="1.0.5" />
+    <PackageReference Include="AutoMapper" Version="14.0.0" />
+    <PackageReference Include="Forgerock.SuperAdmin" Version="1.4.1" />
+    <PackageReference Include="Microsoft.AspNetCore.WebUtilities" Version="8.0.19" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="8.14.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.8" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="9.0.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.ServiceModel.Http" Version="8.*" />
+    <PackageReference Include="System.ServiceModel.NetTcp" Version="8.*" />
+    <PackageReference Include="System.ServiceModel.Primitives" Version="8.*" />
+  </ItemGroup>
+</Project>
